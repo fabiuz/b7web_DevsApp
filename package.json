@@ -1,0 +1,30 @@
+{
+  "name": "DevsApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.47",
+    "firebase": "^4.13.1",
+    "react": "16.4.1",
+    "react-native": "^0.56.0",
+    "react-native-firebase": "^4.2.0",
+    "react-navigation": "^2.6.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "watchman": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "^5",
+    "jest": "23.3.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
